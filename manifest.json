@@ -1,0 +1,12 @@
+{
+  "name": "Dhaka Bus Journey Planner",
+  "short_name": "Dhaka Bus",
+  "description": "ঢাকা ও আশপাশের বাস যাত্রা পরিকল্পনা",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f8f6",
+  "theme_color": "#0b6655",
+  "lang": "bn",
+  "icons": []
+}
