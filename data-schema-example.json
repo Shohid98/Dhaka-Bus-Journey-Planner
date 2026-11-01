@@ -1,0 +1,74 @@
+{
+  "areas": [
+    {
+      "id": "AREA001",
+      "name_bn": "এলাকার নাম",
+      "name_en": "Area name",
+      "aliases": [],
+      "status": "unverified",
+      "source_ids": []
+    }
+  ],
+  "stops": [
+    {
+      "id": "STOP001",
+      "name_bn": "স্টপেজের নাম",
+      "name_en": "Stop name",
+      "area_id": "AREA001",
+      "lat": null,
+      "lon": null,
+      "aliases": [],
+      "status": "unverified",
+      "source_ids": [],
+      "last_verified": null
+    }
+  ],
+  "buses": [
+    {
+      "id": "BUS001",
+      "name_bn": "বাসের নাম",
+      "name_en": "Bus name",
+      "operator": "",
+      "bus_type": "local",
+      "status": "unverified",
+      "source_ids": []
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "ROUTE001",
+      "bus_id": "BUS001",
+      "route_name_bn": "রুটের নাম",
+      "route_name_en": "Route name",
+      "direction": "outbound",
+      "stops": [
+        "STOP001"
+      ],
+      "fare": {
+        "amount": null,
+        "currency": "BDT",
+        "status": "unverified"
+      },
+      "status": "unverified",
+      "source_ids": [],
+      "last_verified": null
+    }
+  ],
+  "fares": [
+    {
+      "id": "FARE001",
+      "route_id": "ROUTE001",
+      "from_stop_id": "STOP001",
+      "to_stop_id": "STOP001",
+      "amount": null,
+      "currency": "BDT",
+      "fare_type": "stage",
+      "status": "unverified",
+      "source_ids": [],
+      "last_verified": null
+    }
+  ],
+  "aliases": [],
+  "emergency": [],
+  "sources": []
+}
