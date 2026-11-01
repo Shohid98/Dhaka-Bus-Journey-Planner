@@ -1,12 +1,14 @@
 {
-  "name": "Dhaka Bus Journey Planner",
-  "short_name": "Dhaka Bus",
-  "description": "ঢাকা ও আশপাশের বাস যাত্রা পরিকল্পনা",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f5f8f6",
-  "theme_color": "#0b6655",
-  "lang": "bn",
-  "icons": []
+  "dataset_version": "1.0.0",
+  "updated_at": null,
+  "coverage": [
+    "Dhaka Metropolitan Area",
+    "Savar",
+    "Ashulia",
+    "Gazipur",
+    "Narayanganj",
+    "Nearby districts"
+  ],
+  "verification_policy": "Only records with status=verified may be presented as confirmed route data.",
+  "note_bn": "এটি খালি প্রাথমিক ডেটাসেট। কোনো বাস রুট বা ভাড়া যাচাইকৃত হিসেবে দেওয়া হয়নি।"
 }
